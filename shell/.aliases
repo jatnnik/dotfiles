@@ -1,4 +1,0 @@
-# PHP
-alias art="php artisan"
-alias pest="clear && ./vendor/bin/pest"
-alias tinker="php artisan tinker"
