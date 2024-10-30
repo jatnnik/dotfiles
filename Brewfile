@@ -6,6 +6,7 @@ tap "homebrew/cask-fonts"
 brew "bat"
 brew "coreutils" # Those that come with macOS are outdated
 brew "deno"
+brew "docker"
 brew "gh"
 brew "git"
 brew "mailhog" # For local email testing
