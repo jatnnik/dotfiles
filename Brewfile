@@ -11,6 +11,7 @@ brew "gh"
 brew "git"
 brew "mailhog" # For local email testing
 brew "pnpm"
+brew "zsh-syntax-highlighting"
 
 # Apps
 cask "brave-browser"
