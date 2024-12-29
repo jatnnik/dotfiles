@@ -1,0 +1,5 @@
+theme = tokyonight
+macos-titlebar-proxy-icon = hidden
+window-padding-x = 16
+window-padding-y = 8
+adjust-cell-height = 8
