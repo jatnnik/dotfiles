@@ -1,6 +1,6 @@
 # Directories
 alias dotfiles="cd $DOTFILES"
-alias projects="cd $HOME/Code/personal"
+alias projects="cd $HOME/Code/jatnnik"
 
 # Laravel/PHP
 alias art="php artisan"
