@@ -19,11 +19,11 @@ else
   echo "Homebrew is already installed..."
 fi
 
-# Check for nvm (Node Version Manager) and install if necessary
-if [ ! -d "$HOME/.nvm" ]; then
-  /bin/sh -c "$(curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash)"
+# Check for mise and install if necessary
+if [ ! -d "$HOME/.local/bin/mise" ]; then
+  /bin/sh -c "$(curl https://mise.run | sh)"
 else
-  echo "nvm is already installed..."
+  echo "mise is already installed..."
 fi
 
 # Update Homebrew recipes
