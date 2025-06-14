@@ -5,13 +5,11 @@ tap "homebrew/cask-fonts"
 # Binaries
 brew "bat"
 brew "coreutils" # Those that come with macOS are outdated
-brew "deno"
 brew "docker"
 brew "gh"
 brew "git"
 brew "git-delta"
 brew "mailhog" # For local email testing
-brew "pnpm"
 brew "zsh-syntax-highlighting"
 
 # Apps
