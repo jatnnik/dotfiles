@@ -5,3 +5,6 @@ alias projects="cd $HOME/Code/jatnnik"
 # Laravel/PHP
 alias art="php artisan"
 alias tinker="php artisan tinker"
+
+# Misc
+alias ls="eza -l --icons"
