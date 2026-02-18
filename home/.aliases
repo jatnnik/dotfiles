@@ -1,0 +1,21 @@
+# Custom ZSH aliases
+
+# Directories
+alias dotfiles="cd ~/.dotfiles"
+
+# Laravel/PHP
+alias art="php artisan"
+alias tinker="php artisan tinker"
+
+# Modern CLI tool aliases (conditional on installation)
+if command -v eza &> /dev/null; then
+	alias ls="eza -l --icons"
+fi
+
+if command -v bat &> /dev/null; then
+    alias cat="bat --style=plain"
+fi
+
+if command -v rg &> /dev/null; then
+    alias grep="rg"
+fi

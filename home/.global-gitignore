@@ -1,0 +1,11 @@
+# macOS hidden files
+.DS_Store
+
+# Node
+node_modules
+
+# Environment Variables
+.env
+
+# Mise
+mise.local.toml

@@ -1,0 +1,39 @@
+[core]
+	excludesfile = /Users/jannik/.global-gitignore
+	pager = delta
+	autocrlf = false
+
+[user]
+	name = Jannik Baranczyk
+	email = 8103530+jatnnik@users.noreply.github.com
+
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+
+[fetch]
+	prune = true
+
+[pull]
+	rebase = false
+
+[init]
+	defaultBranch = main
+
+[push]
+	autoSetupRemote = true
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true
+	dark = true
+
+[merge]
+	conflictstyle = zdiff3
+
+[diff]
+	colorMoved = default

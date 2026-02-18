@@ -1,0 +1,24 @@
+# Dotfiles Brewfile
+# Install with: brew bundle --file=~/.dotfiles/Brewfile
+
+# Core tools
+brew "httpie"
+brew "gh"
+
+# Development tools
+cask "zed"
+brew "helix"
+
+# Modern CLI tools
+brew "bat"
+brew "lazygit"
+brew "eza"
+brew "ripgrep"
+brew "coreutils" # Those that come with macOS are outdated
+brew "git-delta"
+
+# Zsh
+brew "zsh-syntax-highlighting"
+
+# Fonts
+cask "font-jetbrains-mono"
