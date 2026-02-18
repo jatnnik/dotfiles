@@ -7,6 +7,10 @@
 	name = Jannik Baranczyk
 	email = 8103530+jatnnik@users.noreply.github.com
 
+[alias]
+	forget = "!git fetch -p && git branch -vv | awk '/: gone]/{print $1}' | xargs git branch -D"
+    forgetlist = "!git fetch -p && git branch -vv | awk '/: gone]/{print $1}'"
+
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
