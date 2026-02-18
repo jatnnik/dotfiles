@@ -39,6 +39,8 @@ echo ""
 # - .gitconfig
 # - .global-gitignore
 
+# TODO: Copy Ghostty and Helix configs to their respective directories (~/.config)
+
 # TODO: Install Homebrew and packages from Brewfile
 
 # TODO: Install mise
